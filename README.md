@@ -56,7 +56,7 @@ Videos:
     - For puzzles that change, each time you hit the **Run** button, you'll get a new version of the puzzle. Your code should solve any variation of the puzzle you can get. Start by clicking **Run** a few times to make sure you remember what the possible variations are.
     - There's a cheat sheet of syntax on the right, under the puzzle itself.
     - **Assignment: Use at least 3 functions of at least 3 lines each while computing these puzzles.**
-    - **Assignment: Use the while loop for puzzles 4 and 5**
+    - **Assignment: Use a while loop for puzzles 4 and 5.**
     - **Assignment: Email me a link to your final level to [jzamfirescupereira@cca.edu](mailto: jzamfirescupereira@cca.edu) with subject RUDY FINAL LEVEL LINK by 11am, Wednesday January 28.**
 
 - If you find yourself struggling with the basic concepts of the code, complete through puzzle 20 at [Hour of Code](http://learn.code.org/hoc/1) -- make sure you click the **Show Code** button after solving each puzzle and that you understand how that code works.
