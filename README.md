@@ -49,7 +49,8 @@ Videos:
 
 #### Homework 1 (due Wednesday, January 28, 2015)
 
-- Solve the puzzles through level 5 at [Rudy the Red Dot](http://rudy.zamfi.net) -- these are the puzzles we solved together using "pseudocode" in class, but now you will solve them with actual code, in JavaScript. *(The website is running on my computer at home, so it may load a bit slowly. Also, if the <strong>Run</strong> button seems to stop working, reload the page. Best results with the Chrome browser.)*
+- Solve the puzzles through level 5 at [Rudy the Red Dot](http://rudy.zamfi.net) -- these are the puzzles we solved together using "pseudocode" in class, but now you will solve them with actual code, in JavaScript. 
+  *(The website is running on my computer at home, so it may load a bit slowly. Also, if the <strong>Run</strong> button seems to stop working, reload the page. Best results with the Chrome browser.)*
     - For puzzles that change, each time you hit the **Run** button, you'll get a new version of the puzzle. Your code should solve any variation of the puzzle you can get. Start by clicking **Run** a few times to make sure you remember what the possible variations are.
     - There's a cheat sheet of syntax on the right, under the puzzle itself.
     - **Assignment: Use at least 3 functions of at least 3 lines each while computing these puzzles.**
