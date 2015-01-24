@@ -57,7 +57,7 @@ Videos:
     - There's a cheat sheet of syntax on the right, under the puzzle itself.
     - **Assignment: Use at least 3 functions of at least 3 lines each while computing these puzzles.**
     - **Assignment: Use a while loop for puzzles 4 and 5.**
-    - **Assignment: Email me a link to your final level to [jzamfirescupereira@cca.edu](mailto: jzamfirescupereira@cca.edu) with subject RUDY FINAL LEVEL LINK by 11am, Wednesday January 28.**
+    - **Assignment: Email me a link to your final level (not the code, the actual URL link -- like http://rudy.zamfi.net/whatever) to [jzamfirescupereira@cca.edu](mailto: jzamfirescupereira@cca.edu) with subject RUDY FINAL LEVEL LINK by 11am, Wednesday January 28.**
 
 - If you find yourself struggling with the basic concepts of the code, complete through puzzle 20 at [Hour of Code](http://learn.code.org/hoc/1) -- make sure you click the **Show Code** button after solving each puzzle and that you understand how that code works.
 
