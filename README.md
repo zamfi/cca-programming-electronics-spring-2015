@@ -17,34 +17,29 @@ Hands-on:
 
 Videos:
 - Basic robots
-    - [Coffee-can robot](http://www.youtube.com/watch?v=b0mIshBIbvI#t=24)
-    - [Tree-climbing robot](http://www.youtube.com/watch?v=zkpH1BjD6Wc)
-    - [Self-balancing robot](http://www.youtube.com/watch?v=Tw9Jr-SPL0Y)
-    - [Insect robot](http://www.youtube.com/watch?v=tOsNXg2vAd4#t=120)
-    - [Treadbot](http://www.youtube.com/watch?v=YblSltHDbIU)
-    - [Velociraptor robot](http://www.youtube.com/watch?v=lPEg83vF_Tw)
-
+  - [Coffee-can robot](http://www.youtube.com/watch?v=b0mIshBIbvI#t=24)
+  - [Tree-climbing robot](http://www.youtube.com/watch?v=zkpH1BjD6Wc)
+  - [Self-balancing robot](http://www.youtube.com/watch?v=Tw9Jr-SPL0Y)
+  - [Insect robot](http://www.youtube.com/watch?v=tOsNXg2vAd4#t=120)
+  - [Treadbot](http://www.youtube.com/watch?v=YblSltHDbIU)
+  - [Velociraptor robot](http://www.youtube.com/watch?v=lPEg83vF_Tw)
 - Drink-makers
-    - [Textspresso](http://www.youtube.com/watch?v=kx9D74t7GD8#t=89)
-    - [The Inebriator](http://www.youtube.com/watch?v=WqY7fchs7H0)
-
+  - [Textspresso](http://www.youtube.com/watch?v=kx9D74t7GD8#t=89)
+  - [The Inebriator](http://www.youtube.com/watch?v=WqY7fchs7H0)
 - Art bots
-    - [Floating Couch](http://vimeo.com/72826106)
-    - [Wooden Segment Mirror](https://www.youtube.com/watch?v=BZysu9QcceM#t=36)
-    - [Cubli: Floating Cube](https://www.youtube.com/watch?v=n_6p-1J551Y)
-    - [Arc-o-matic](http://vimeo.com/57082262#at=130)
-    - [Robo Faber](http://vimeo.com/78771257)
-    - [Eggbot](https://www.youtube.com/watch?v=w4cdbV2oaEc)
-
+  - [Floating Couch](http://vimeo.com/72826106)
+  - [Wooden Segment Mirror](https://www.youtube.com/watch?v=BZysu9QcceM#t=36)
+  - [Cubli: Floating Cube](https://www.youtube.com/watch?v=n_6p-1J551Y)
+  - [Arc-o-matic](http://vimeo.com/57082262#at=130)
+  - [Robo Faber](http://vimeo.com/78771257)
+  - [Eggbot](https://www.youtube.com/watch?v=w4cdbV2oaEc)
 - Computer Numerical Control (CNC)
-    - [Shapoko / tinyg](http://www.youtube.com/watch?v=pCC1GXnYfFI#t=11)
-    - [Makerbot Replicator](http://www.youtube.com/watch?v=NAbiAzYhTOQ)
-
+  - [Shapoko / tinyg](http://www.youtube.com/watch?v=pCC1GXnYfFI#t=11)
+  - [Makerbot Replicator](http://www.youtube.com/watch?v=NAbiAzYhTOQ)
 - Music
-    - [Laser harp](http://www.youtube.com/watch?v=sLVXmsbVwUs#t=20)
-
+  - [Laser harp](http://www.youtube.com/watch?v=sLVXmsbVwUs#t=20)
 - Vacuuming
-    - [Roomba](https://www.youtube.com/watch?v=0DNkbZvVYvc)
+  - [Roomba](https://www.youtube.com/watch?v=0DNkbZvVYvc)
 
 
 #### Homework 1 (due Wednesday, January 28, 2015)
