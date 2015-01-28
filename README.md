@@ -80,7 +80,7 @@ Lab:
 
 3. ![three](img/three.png)
 
-4. <iframe width="420" height="315" src="https://www.youtube.com/embed/jWNXFlGHuPA" frameborder="0" allowfullscreen></iframe>
+4. [![four](http://img.youtube.com/vi/jWNXFlGHuPA/0.jpg)](http://www.youtube.com/watch?v=jWNXFlGHuPA)
 
 5. ![five](img/five.png)
 
