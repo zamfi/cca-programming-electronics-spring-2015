@@ -80,7 +80,7 @@ Lab:
 
 3. ![three](img/three.png)
 
-4. [![four](http://img.youtube.com/vi/jWNXFlGHuPA/0.jpg)](http://www.youtube.com/watch?v=jWNXFlGHuPA)
+4. [![four](img/four.png)](http://www.youtube.com/watch?v=jWNXFlGHuPA)
 
 5. ![five](img/five.png)
 
