@@ -66,3 +66,22 @@ Videos:
 
 Please email me at [jzamfirescupereira@cca.edu](mailto: jzamfirescupereira@cca.edu) if you're stuck, aren't sure how to move forward, or just want to say hi! (And if you're stuck on Rudy, include the URL link to the puzzle you're stuck on!)
 
+### Week 2: Wednesday, January 21, 2015
+
+Lecture:
+- Homework Review
+
+Lab:
+- Creating sketches. Write code to create the following sketches in Processing:
+
+1. ![one](img/one.png)
+
+2. ![two](img/two.png)
+
+3. ![three](img/three.png)
+
+4. <iframe width="420" height="315" src="https://www.youtube.com/embed/jWNXFlGHuPA" frameborder="0" allowfullscreen></iframe>
+
+5. ![five](img/five.png)
+
+6. Look through the [Processing reference](http://processing.org/reference). Pick a function, and use it in a new sketch of your own choosing.
