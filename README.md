@@ -95,7 +95,11 @@ Programming Practice!
 
 - Not all these sketches are equally difficult -- in fact some are very challenging!
 
-- If you didn't follow the [Processing tutorials](https://processing.org/tutorials/) last week, then **Assignment: Do so now!**
+- If you didn't follow all the [Processing tutorials](https://processing.org/tutorials/) last week, then **Assignment: Do so now!**
+
+- It may help to read through the [Processing reference](http://processing.org/reference/) to understand all the various functions available to you.
+
+- For extra programming help, consider following the [Khan Academy programming tutorials using Processing](https://www.khanacademy.org/computing/computer-programming/programming).
 
 1. Circles in a diagonal line. Use a while loop to draw the balls in sequence. What do you know about the x and y coordinates of each ball? (Spoiler: They're the same!)
    
