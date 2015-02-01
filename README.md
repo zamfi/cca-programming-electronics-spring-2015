@@ -151,7 +151,7 @@ Programming Practice!
 
 14. **Challenge:** Bouncing balls, more added by clicking. You may need to use an `ArrayList`.
 
-   [![bouncing-balls-with-clicks](img/hw2/bouncing-balls-with-click.png)](http://youtu.be/Tnkhya3Tqu0)
+   [![bouncing-balls-with-clicks](img/hw2/bouncing-balls-with-clicks.png)](http://youtu.be/Tnkhya3Tqu0)
 
 15. **Challenge:** Fireworks! They should track the mouse and appear on clicks.
 
