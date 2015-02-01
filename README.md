@@ -101,6 +101,8 @@ Programming Practice!
 
 - For extra programming help, consider following the [Khan Academy programming tutorials using Processing](https://www.khanacademy.org/computing/computer-programming/programming).
 
+Without further ado, here are the sketches:
+
 1. Circles in a diagonal line. Use a while loop to draw the balls in sequence. What do you know about the x and y coordinates of each ball? (Spoiler: They're the same!)
    
    ![ball-diagonal](img/hw2/ball-diagonal.png)
