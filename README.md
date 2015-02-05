@@ -190,7 +190,9 @@ Lab:
   - Pick two additional sketches from [last week's list of 15](#homework-2-due-wednesday-february-4-2015) and create them in Processing.
   - In the Pulsed Line sketch below, try the following changes:
       - Change the phase increase (currently 0.17) so that each pulse takes up the full width of the canvas.
+      
       - Color the lines rainbow-style, like in homework 2, exercise 4; have the color start over from red when you click; have the color fade to white as the pulse height drops to 0.
+
       - Use `rect` instead of `line`.
     ```
     /**
