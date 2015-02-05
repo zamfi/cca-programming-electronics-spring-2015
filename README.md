@@ -182,17 +182,16 @@ Lab:
     - https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law
     - http://www.allaboutcircuits.com/vol_1/chpt_1/index.html
     - http://www.allaboutcircuits.com/vol_1/chpt_2/index.html 
-  - Optional: watch these videos:
+  - Watch these videos:
     - https://www.youtube.com/watch?v=exlRjDKHGRg
     - https://www.youtube.com/watch?v=mzSnz6ZDkFE
 
 2. Programming Practice:
   - Pick two additional sketches from [last week's list of 15](#homework-2-due-wednesday-february-4-2015) and create them in Processing.
-  - In the following code, try the following changes:
+  - In the Pulsed Line sketch below, try the following changes:
       - Change the phase increase (currently 0.17) so that each pulse takes up the full width of the canvas.
-      - Color the lines rainbow-style, like in homework 2, exercise 4.
-      - Have the color start over from red when you click.
-      - Have the color fade to white as the pulse height drops to 0.
+      - Color the lines rainbow-style, like in homework 2, exercise 4; have the color start over from red when you click; have the color fade to white as the pulse height drops to 0.
+      - Use `rect` instead of `line`.
     ```
     /**
      * Pulsed Lines
