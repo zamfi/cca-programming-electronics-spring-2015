@@ -162,3 +162,72 @@ Without further ado, here are the sketches:
 15. **Challenge:** Fireworks! They should track the mouse and appear on clicks.
 
    [![fireworks](img/hw2/fireworks.png)](http://youtu.be/yNTUEe9cof8)
+   
+   
+### Week 3: Wednesday, February 4, 2015
+
+Lecture:
+- Homework Review
+
+Lab:
+- Arrays
+- More Processing sketches
+
+
+#### Homework 3 (due Wednesdsay February 11, 2015)
+
+1. Prepare for our Arduino and electronics sessions by:
+  - **Assignment: Read these tutorials:**
+    - https://learn.sparkfun.com/tutorials/what-is-electricity
+    - https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law
+    - http://www.allaboutcircuits.com/vol_1/chpt_1/index.html
+    - http://www.allaboutcircuits.com/vol_1/chpt_2/index.html 
+  - Optional: watch these videos:
+    - https://www.youtube.com/watch?v=exlRjDKHGRg
+    - https://www.youtube.com/watch?v=mzSnz6ZDkFE
+
+2. Programming Practice:
+  - Pick two additional sketches from [last week's list of 15](#homework-2-due-wednesday-february-4-2015) and create them in Processing.
+  - Load the PolygonPShape example, and modify it to draw a 7-pointed star instead of a 5-pointed one: 
+
+    /**
+     * PrimitivePShape. 
+     * 
+     * Using a PShape to display a custom polygon. 
+     */
+
+    // The PShape object
+    PShape star;
+
+    void setup() {
+      size(640, 360, P2D);
+      smooth();
+      // First create the shape
+      star = createShape();
+      star.beginShape();
+      // You can set fill and stroke
+      star.fill(102);
+      star.stroke(255);
+      star.strokeWeight(2);
+      // Here, we are hardcoding a series of vertices
+      star.vertex(0, -50);
+      star.vertex(14, -20);
+      star.vertex(47, -15);
+      star.vertex(23, 7);
+      star.vertex(29, 40);
+      star.vertex(0, 25);
+      star.vertex(-29, 40);
+      star.vertex(-23, 7);
+      star.vertex(-47, -15);
+      star.vertex(-14, -20);
+      star.endShape(CLOSE);
+    }
+
+    void draw() {
+      background(51);
+      // We can use translate to move the PShape
+      translate(mouseX, mouseY);
+      // Display the shape
+      shape(star);
+    }
+    
