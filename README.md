@@ -189,7 +189,7 @@ Lab:
 2. Programming Practice:
   - Pick two additional sketches from [last week's list of 15](#homework-2-due-wednesday-february-4-2015) and create them in Processing.
   - Load the PolygonPShape example, and modify it to draw a 7-pointed star instead of a 5-pointed one: 
-```
+    ```
 /**
  * PrimitivePShape. 
  * 
