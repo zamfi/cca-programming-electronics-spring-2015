@@ -194,6 +194,11 @@ Lab:
       - Have the color start over from red when you click.
       - Have the color fade to white as the pulse height drops to 0.
     ```
+    /**
+     * Pulsed Lines
+     *
+     * Click to pulse.
+     */ 
     float amplitude, phase;
 
     void setup() {
