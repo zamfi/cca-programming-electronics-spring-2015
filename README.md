@@ -191,7 +191,7 @@ Lab:
   - Load the PolygonPShape example, and modify it to draw a 7-pointed star instead of a 5-pointed one: 
     ```
     /**
-     * PrimitivePShape. 
+     * PolygonPShape. 
      * 
      * Using a PShape to display a custom polygon. 
      */
