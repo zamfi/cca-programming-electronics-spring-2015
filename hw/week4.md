@@ -26,7 +26,7 @@
       
       ![was 3, now 4](img/3-no-4.png)
     3. For every drawing command, draw the result on the canvas. (This exercise is all monochrome.)
-    4. Tally (or draw a line or dot) to the left of each line as you evaluate it.
+    4. Tally (or draw a line or dot) to the left of each line as you evaluate it. (Some lines will be evaluated many times!)
     5. Bring in the printed exercise sheet with you to class, or scan and email it to me before class.
   2. Take these two individual sketches, and add color in some interactive way. *(Or, send me other code you wrote this week.)*
     - Mouse-tracking Circles
