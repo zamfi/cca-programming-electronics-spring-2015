@@ -305,9 +305,8 @@ Lab:
     
     **Send me your final code by 11am, Wednesday, Feb 18. Bring your breadboard with your completed project to Wednesday's class.**
 
-2. Programming Practice:
-  - Take these two individual sketches, and add color in some interactive way:
-  - Mouse-tracking Circles:
+2. Programming Practice. Take these two individual sketches, and add color in some interactive way:
+  - Mouse-tracking Circles
     ```
     /**
      * Mouse-tracking Circles
