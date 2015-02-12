@@ -314,7 +314,9 @@ Lab:
 3. Programming Practice.
   1. **Assignment:** Run the code in [this pdf](tracing-exercise.pdf) as though you are the computer. *(This exercise is required for everyone.)*
     1. For each new variable, add a new entry to the Computer Memory table.
-    2. For every change in a variable's value, update the entry in the table, legibly crossing out the old value, like this update from 3 to 4: ![was 3, now 4](img/3-no-4.png)
+    2. For every change in a variable's value, update the entry in the table, legibly crossing out the old value, like this update from 3 to 4:
+      
+      ![was 3, now 4](img/3-no-4.png)
     3. For every drawing command, draw the result on the canvas. (This exercise is all monochrome.)
     4. Tally (or draw a line or dot) to the left of each line as you evaluate it.
     5. Bring in the printed exercise sheet with you to class, or scan and email it to me before class.
