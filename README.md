@@ -306,9 +306,9 @@ Lab:
     **Send me your final code by 11am, Wednesday, Feb 18. Bring your breadboard with your completed project to Wednesday's class.**
 
 2. Math Practice. Follow these directions:
-  1. Sign up at khanacademy.org (or log in with their existing accounts)
+  1. Sign up at http://khanacademy.org (or log in with your existing account)
   2. Visit http://khanacademy.org/coaches
-  3. There, in the "Add a coach" field, enter the class code **Q9XFRS**
+  3. In the "Add a coach" field, enter the class code **Q9XFRS**
   4. **Assignment:** Spend an hour working through topics you don't know well! Especially useful will be the sections on expressions, manupulating expressions, and equations and inequality.
 
 3. Programming Practice.
