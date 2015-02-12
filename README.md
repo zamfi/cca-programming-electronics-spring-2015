@@ -305,7 +305,13 @@ Lab:
     
     **Send me your final code by 11am, Wednesday, Feb 18. Bring your breadboard with your completed project to Wednesday's class.**
 
-2. Programming Practice. Take these two individual sketches, and add color in some interactive way:
+2. Math Practice. Follow these directions:
+  1. Sign up at khanacademy.org (or log in with their existing accounts)
+  2. Visit khanacademy.org/coaches
+  3. There, in the "Add a coach" field, enter the class code Q9XFRS
+  4. **Assignment:** Spend an hour working through topics you don't know well! Especially useful will be the sections on expressions, manupulating expressions, and equations and inequality.
+
+3. Programming Practice. Take these two individual sketches, and add color in some interactive way:
   - Mouse-tracking Circles
     ```
     /**
@@ -359,8 +365,8 @@ Lab:
     void setup() {
       size(CANVAS_SIZE, CANVAS_SIZE);
 
-      newX = floor(random(20));
-      newY = floor(random(20));
+      newX = floor(random(GRID_SIZE));
+      newY = floor(random(GRID_SIZE));
 
       historyPoints = new ArrayList<PVector>();
       setNewDestination();
@@ -370,8 +376,8 @@ Lab:
       fraction = 0;
       oldX = newX;
       oldY = newY;
-      newX = floor(random(10));
-      newY = floor(random(10));
+      newX = floor(random(GRID_SIZE));
+      newY = floor(random(GRID_SIZE));
 
       // add the old destination to the history
       historyPoints.add(0, new PVector(oldX, oldY));
@@ -419,5 +425,5 @@ Lab:
            cOldX + (cNewX - cOldX)*min(fraction+FRACTION_PER_FRAME, 1),
            cOldY + (cNewY - cOldY)*min(fraction+FRACTION_PER_FRAME, 1));
       fraction += FRACTION_PER_FRAME;
-    }
+    }    
     ```
