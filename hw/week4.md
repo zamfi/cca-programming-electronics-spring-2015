@@ -20,7 +20,7 @@
   4. **Assignment:** Spend an hour working through topics you don't know well! Especially useful will be the sections on expressions, manupulating expressions, and equations and inequality.
 
 3. Programming Practice.
-  1. **Assignment:** Run the code in [this pdf](tracing-exercise.pdf) as though you are the computer. *(This exercise is required for everyone.)*
+  1. **Assignment:** Run the code in [this pdf](https://github.com/zamfi/cca-programming-electronics-spring-2015/blob/master/hw/tracing-exercise.pdf?raw=true) as though you are the computer. *(This exercise is required for everyone.)*
     1. For each new variable, add a new entry to the Computer Memory table.
     2. For every change in a variable's value, update the entry in the table, legibly crossing out the old value, like this update from 3 to 4:
       
