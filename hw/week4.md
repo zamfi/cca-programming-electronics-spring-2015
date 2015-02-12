@@ -5,13 +5,13 @@
     
     You'll need extra parts: more wires, an RGB LED, and two additional potentiometers, all of which you can get from the Hybrid Lab. (I recommend actually doing the assignment at the Hybrid Lab, where there will be monitors and coaches who can help you!)
     
-    **Send me your final code by 11am, Wednesday, Feb 18. Bring your breadboard with your completed project to Wednesday's class.**
+    **Send me your final code by 11am, Wednesday, Feb 18, to [jzamfirescupereira@cca.edu](mailto:jzamfirescupereira@cca.edu). Bring your breadboard with your completed project to Wednesday's class.**
   
   - **Assignment:** Complete this lab: http://workshopweekend.net/arduino/labs/exploring-signals on the other half of your breadboard.
     
     You'll need extra parts here too: more LEDs, a light-dependent resistor (LDR), and a 10K resistor, all of which you can also get from the Hybrid Lab. (Do this assignment at the Hybrid Lab too!)
     
-    **Send me your final code by 11am, Wednesday, Feb 18. Bring your breadboard with your completed project to Wednesday's class.**
+    **Send me your final code by 11am, Wednesday, Feb 18, to [jzamfirescupereira@cca.edu](mailto:jzamfirescupereira@cca.edu). Bring your breadboard with your completed project to Wednesday's class.**
 
 2. Math Practice. Follow these directions:
   1. Sign up at http://khanacademy.org (or log in with your existing account)
@@ -30,7 +30,7 @@
     5. Bring in the printed exercise sheet with you to class, or scan and email it to me before class.
   2. Take these two individual sketches, and add color in some interactive way. *(Or, send me other code you wrote this week.)*
     - Mouse-tracking Circles
-      ```
+      ```processing
       /**
        * Mouse-tracking Circles
        *
@@ -63,7 +63,7 @@
       }
       ```
     - Hyper Circles
-      ```
+      ```processing
       final int GRID_SIZE = 10;
       final float GRID_PADDING = 50;
       final int CANVAS_SIZE = 500;
