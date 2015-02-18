@@ -154,77 +154,78 @@ Lab:
     
     1. Connect two potentiometers to analog pins `A0` and `A1`. Here's a schematic:
     
-    ![two potentiometers](img/two-pots.png)
+       ![two potentiometers](img/two-pots.png)
     
     2. Write an Arduino sketch, using the `Serial` library, that reads the two analog inputs (using `analogRead`) and prints those values to serial port, two per line, separated by commas. The outputs should look like this in the serial monitor:
-    ```
-    253,124
-    253,176
-    253,182
-    ...
-    ```
+
+       ```
+       253,124
+       253,176
+       253,182
+       ...
+       ```
     
-    You will likely need both `Serial.print` and `Serial.println`. The first number should correspond to the value from pin `A0`, and the second from pin `A1`.
+       You will likely need both `Serial.print` and `Serial.println`. The first number should correspond to the value from pin `A0`, and the second from pin `A1`.
     
     3. Here's a Processing sketch that reads these pairs of numbers from the serial port, and then draws a line from the old coordinate to the new coordinate. But it has a bug! So it doesn't quite work. Fix the bug.
     
-    ```processing
-    // Etch-a-Sketch
-    // based on a sketch by Trevor Shannon
+       ```processing
+       // Etch-a-Sketch
+       // based on a sketch by Trevor Shannon
 
-    import processing.serial.*;
+       import processing.serial.*;
 
-    Serial port;
-    int oldX = -1;
-    int oldY = -1;
+       Serial port;
+       int oldX = -1;
+       int oldY = -1;
 
-    void setup() {
-      size(512, 512);
-      background(255);
-      port = new Serial(this, Serial.list()[Serial.list().length-1], 9600);  
-    }
+       void setup() {
+         size(512, 512);
+         background(255);
+         port = new Serial(this, Serial.list()[Serial.list().length-1], 9600);  
+       }
 
-    void drawNextLine(int x, int y) {
-      if (oldX >= 0 && oldY >= 0) {
-        // draw a line from the old x,y coordinates to the new x,y coordinates
-        line(x, y, oldX, oldY);
-      }
+       void drawNextLine(int x, int y) {
+         if (oldX >= 0 && oldY >= 0) {
+           // draw a line from the old x,y coordinates to the new x,y coordinates
+           line(x, y, oldX, oldY);
+         }
 
-      // update the "old" x,y coordinates for the next frame
-      oldX = x;
-      oldY = x;
-    }  
+         // update the "old" x,y coordinates for the next frame
+         oldX = x;
+         oldY = x;
+       }  
 
-    void draw() {
-      int[] values = readSerial(2);
-      if (values != null) {
-        drawNextLine(values[0], values[1]);
-      }
-    }
+       void draw() {
+         int[] values = readSerial(2);
+         if (values != null) {
+           drawNextLine(values[0], values[1]);
+         }
+       }
 
-    void mouseClicked() {
-      background(255);
-    }
+       void mouseClicked() {
+         background(255);
+       }
 
-    int[] readSerial(int minValues) {  
-      int x; int y;
-      String s = port.readStringUntil('\n');
-      if (s != null) {
-        String[] parts = s.substring(0, s.length()-2).split(",");
-        int[] values = new int[parts.length];
-        for (int i = 0; i < parts.length; i++) {
-          values[i] = int(parts[i]);
-        }
-        if (values.length < minValues) {
-          return null;
-        } else {
-          return values;
-        } 
-      } else {
-        return null;
-      }
-    }
-    ```
+       int[] readSerial(int minValues) {  
+         int x; int y;
+         String s = port.readStringUntil('\n');
+         if (s != null) {
+           String[] parts = s.substring(0, s.length()-2).split(",");
+           int[] values = new int[parts.length];
+           for (int i = 0; i < parts.length; i++) {
+             values[i] = int(parts[i]);
+           }
+           if (values.length < minValues) {
+             return null;
+           } else {
+             return values;
+           } 
+         } else {
+           return null;
+         }
+       }
+       ```
     
     4. Modify the Processing code so that it draws a graph of the value of the second coordinate only (that is, the number that changes when you rotate the potentiometer that you've connected to pin `A1`).
        
