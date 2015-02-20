@@ -89,6 +89,11 @@ Lab:
 
 ### Week 5: Wednesday, February 18, 2015
 
+Lecture:
+- Schematic how-to.
+  - See [Make's guide to building a breadboard from a schematic](http://makezine.com/2012/04/02/going-from-schematic-to-breadboard/)
+  - Also see [Paul Spinrad's guide to reading schematics](http://blog.makezine.com/archive/2011/01/reading-circuit-diagrams.html) and [Collin's video version](http://makezine.com/2011/11/15/collins-lab-schematics/)
+
 Lab:
 -   Start with example AnalogInOutSerial (File > Examples > Analog > AnalogInOutSerial). Here's a simplified version of that code:
     ```arduino
@@ -146,7 +151,11 @@ Lab:
     
     5. *Show me your breadboard before moving on.*
     
-    6. Replace your LDR with a button. What happens?
+    6. Replace your LDR with a button. Here's what you should have:
+    
+       ![Button and LEDs on pins 9, 10, 11, and 12](img/ldr-led-pins-9-10-11-12.png)
+    
+       What happens?
        
        Open the serial monitor and see what numbers are printed when you push and release the button. What's the lowest number you see? Highest?
     
@@ -232,3 +241,5 @@ Lab:
        You'll need to modify the `drawNextLine` function so that it doesn't draw a line from `x`,`y` to `oldX`,`oldY` anymore. Instead, it will use a slowly-increasing `x` coordinate. Create a new variable called `columnPosition` and use that instead of `x` in the `line` function. Then increase `columnPosition` a little bit on every frame.
     
     5. **Challenge**: Also graph the value of the first coordinate!
+  
+  Homework: Practice programming and finish homework 4 if you haven't yet! (Especially the code tracing exercise.)
