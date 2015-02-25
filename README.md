@@ -159,6 +159,8 @@ Lab:
        What happens?
        
        Open the serial monitor and see what numbers are printed when you push and release the button. What's the lowest number you see? Highest?
+       
+       Replace the `analogRead` function with `digitalRead`. What happens in the serial monitor now?
     
 -   Use Arduino and Procesing function to create a digital [Etch-a-Sketch](https://www.youtube.com/watch?v=CAGcFy6CYnM#t=120s). 
     
@@ -237,10 +239,16 @@ Lab:
        }
        ```
     
-    4. Modify the Processing code so that it draws a graph of the value of the second coordinate only (that is, the number that changes when you rotate the potentiometer that you've connected to pin `A1`).
-       
-       You'll need to modify the `drawNextLine` function so that it doesn't draw a line from `x`,`y` to `oldX`,`oldY` anymore. Instead, it will use a slowly-increasing `x` coordinate. Create a new variable called `columnPosition` and use that instead of `x` in the `line` function. Then increase `columnPosition` a little bit on every frame.
+    4. Replace the potentiometer on pin `A1` with a sensing resistor of your choice in a voltage divider -- you can use an LDR like in the previous example, or a force-sensitive resistor, or a thermistor, or... A digital multimeter may help in picking the right corresponding resistor.
     
-    5. **Challenge**: Also graph the value of the first coordinate!
+    5. Modify the Processing code so that it draws a graph of the value of the second coordinate only (that is, the number that changes when you rotate the potentiometer that you've connected to pin `A1`).
+       
+       You'll need to modify the `drawNextLine` function so that it doesn't draw a line from `x`,`y` to `oldX`,`oldY` anymore. Instead, it will use a slowly-increasing `x` coordinate. Try these two changes:
+       
+       1. Create a new variable called `columnPosition` and use that instead of `x` in the `line` function. 
+       
+       2. Increase `columnPosition` a little bit on every frame.
+    
+    6. **Challenge**: Also graph the value of the first coordinate!
   
   Homework: Practice programming and finish homework 4 if you haven't yet! (Especially the code tracing exercise.)
