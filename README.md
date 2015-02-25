@@ -153,7 +153,7 @@ Lab:
     
     6. Replace your LDR with a button. Here's what you should have:
     
-       ![Button and LEDs on pins 9, 10, 11, and 12](img/ldr-led-pins-9-10-11-12.png)
+       ![Button and LEDs on pins 9, 10, 11, and 12](img/switch-led-pins-9-10-11-12.png)
     
        What happens?
        
