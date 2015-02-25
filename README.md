@@ -105,7 +105,8 @@ Lab:
 
     void setup() {
       // initialize serial communications at 9600 bps:
-      Serial.begin(9600); 
+      Serial.begin(9600);
+      pinMode(analogOutPin, OUTPUT);
     }
 
     void loop() {
@@ -176,7 +177,7 @@ Lab:
     
        You will likely need both `Serial.print` and `Serial.println`. The first number should correspond to the value from pin `A0`, and the second from pin `A1`.
     
-    3. Here's a Processing sketch that reads these pairs of numbers from the serial port, and then draws a line from the old coordinate to the new coordinate. But it has a bug! So it doesn't quite work. Fix the bug.
+    3. Here's a Processing sketch that reads these pairs of numbers from the serial port, and then draws a line from the old coordinate to the new coordinate. But it has a bug! So it doesn't quite work. Fix the bug. (Hint: the bug isn't with the `readSerial` function!)
     
        ```processing
        // Etch-a-Sketch
