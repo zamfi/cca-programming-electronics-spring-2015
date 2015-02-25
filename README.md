@@ -250,5 +250,39 @@ Lab:
        2. Increase `columnPosition` a little bit on every frame.
     
     6. **Challenge**: Also graph the value of the first coordinate!
-  
+
   Homework: Practice programming and finish homework 4 if you haven't yet! (Especially the code tracing exercise.)
+  
+### Week 6: Wednesday, February 25, 2015
+
+Lecture:
+- Voltage dividers, current, resistance. V=IR.
+
+Lab:
+-   Playing with voltage dividers!
+
+    1.   Build a two-resistor circuit:
+
+         ![Resistor divider](img/resistor-divider.png)
+         
+    2. Write a simple Arduino sketch that reads from the analog input pin `A0` and writes to the Serial port. Open the serial monitor and observe the (unchanging) value.
+    
+    3. Measure the voltage across each resistor using a digital multimeter. (What do the voltages add to?)
+    
+    4. Replace the resistors in your circuit with new resistors with different values. What happens to the serial monitor output? What happens to the voltage?
+    
+    5. Replace one of the resistors with a resistive sensor. Actuate it, and observe the serial monitor values change as well as the multimeter values.
+
+-   More electronics experiments! Continue the labs from Week 5.
+
+Review:
+-  Tracing code (homework exercise)
+
+-  Writing code
+  
+  -  Break down the problem into parts. Is there are repeating component? Use a `while` loop. Does something happen only under specific circumstances? Use an `if` statement. Are you tracking something changing over time or as you draw? Use a variable: `int` or `float`, depending on what kind of thing you're tracking.
+
+-  Breadboarding a schematic
+  -  Wire up the + and - lines to 5V and GND.
+  -  Place each component so that the seprate leads are in (electrically) seprate columns on the breadboard.
+  -  Place wires between the components so that connected component leads are connected.
