@@ -251,7 +251,7 @@ Lab:
     
     6. **Challenge**: Also graph the value of the first coordinate!
 
-  Homework: Practice programming and finish homework 4 if you haven't yet! (Especially the code tracing exercise.)
+Homework: Practice programming and finish [homework 4](hw/week4.md) if you haven't yet! (Especially the code tracing exercise.)
   
 ### Week 6: Wednesday, February 25, 2015
 
@@ -283,6 +283,8 @@ Review:
   -  Break down the problem into parts. Is there are repeating component? Use a `while` loop. Does something happen only under specific circumstances? Use an `if` statement. Are you tracking something changing over time or as you draw? Use a variable: `int` or `float`, depending on what kind of thing you're tracking.
 
 -  Breadboarding a schematic
-  -  Wire up the + and - lines to 5V and GND.
-  -  Place each component so that the seprate leads are in (electrically) seprate columns on the breadboard.
-  -  Place wires between the components so that connected component leads are connected.
+  1.  Wire up the + and - lines to 5V and GND.
+  2.  Place each component so that the seprate leads are in (electrically) seprate columns on the breadboard.
+  3.  Place wires between the components so that connected component leads are connected.
+
+Homework: Do the practice quiz. Get it at [Homework 6](hw/week6.md).
