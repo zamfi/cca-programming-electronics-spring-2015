@@ -338,3 +338,5 @@ Lab:
 13. Add a potentiometer to your sketch -- when rotated one way, the motor should spin in one direction, when rotated the other way, the motor should spin in the other direction. In the middle range, the motor shouldn't spin at all. (What code can you write to stop the motor?)
 
 14. Add a second motor, connect it to the other half of the integrated circuit.
+
+Homework: Refresh today's class and learn more programming in [homework 8](hw/week8.md)
