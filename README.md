@@ -340,3 +340,28 @@ Lab:
 14. Add a second motor, connect it to the other half of the integrated circuit.
 
 Homework: Refresh today's class and learn more programming in [homework 8](hw/week8.md)
+
+
+### Week 9: Wednesday, March 18, 2015
+
+Lecture:
+-  Homework review.
+
+Lab:
+-  Continuation of motor experiments!
+
+1. Build the following circuit:
+   
+   ![Two-motor circuit](img/arduino-driver-motors.png)
+
+2. Attach your motors to the bottom of a cardboard box or similar chassis.
+
+3. Write a function in Arduino, `void forward()`, that spins both motors forward.
+
+4. Write an analogous function, `void reverse()`, that spins both motors backwards.
+
+5. Write functions for `left`, `right`, and `stop`.
+
+6. Attach an input to your motorized box: this may be a remote control receiver, a potentiometer "steering wheel", a distance sensor, light sensors, or anything else you want to try. Use the functions you defined in steps 3-5 to control your motorized box.
+
+7. Modify your circuit to add speed control for your motors: you can do this by connecting the `EN` (enable) pin for each motor to a PWM-capable output pin on the Arduino, and then using `analogWrite` on that output pin.
