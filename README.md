@@ -339,7 +339,7 @@ Lab:
 
 14. Add a second motor, connect it to the other half of the integrated circuit.
 
-Homework: Refresh today's class and learn more programming in [homework 8](hw/week8.md)
+Homework: Refresh today's class and learn more programming in [homework 8](hw/week8.md).
 
 
 ### Week 9: Wednesday, March 18, 2015
@@ -366,4 +366,4 @@ Lab:
 
 7. Modify your circuit to add speed control for your motors: you can do this by connecting the `EN` (enable) pin for each motor to a PWM-capable output pin on the Arduino, and then using `analogWrite` on that output pin.
 
-Homework: Draft a project proposal and practice programming in [homework 9](hw/week9.md)
+Homework: Draft a project proposal and practice programming in [homework 9](hw/week9.md).
