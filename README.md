@@ -365,3 +365,5 @@ Lab:
 6. Attach an input to your motorized box: this may be a remote control receiver, a potentiometer "steering wheel", a distance sensor, light sensors, or anything else you want to try. Use the functions you defined in steps 3-5 to control your motorized box.
 
 7. Modify your circuit to add speed control for your motors: you can do this by connecting the `EN` (enable) pin for each motor to a PWM-capable output pin on the Arduino, and then using `analogWrite` on that output pin.
+
+Homework: Draft a project proposal and practice programming in [homework 9](hw/week9.md)
