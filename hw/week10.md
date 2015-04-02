@@ -48,7 +48,7 @@ This homework has two parts: a programming assignment and a project proposal.
           b.move();
         }
 
-- Write a proposal for your final project, and **[send it to me](mailto:jzamfirescupereira@cca.edu) by Monday night, 11pm** It should include at least these four sections: 
+- Write a proposal for your final project, and **[send it to me](mailto:jzamfirescupereira@cca.edu) by Monday night, 11pm**. It should include at least these four sections: 
   - **Summary**: A few paragraphs (half a page?) or so describing the goals of your project. Include what types of inputs/outputs/data it will use, and how it will be interactive or responsive to the environment.
   - **Component Parts**: From what pieces will you build your project? Will you build or buy those pieces?
   - **Challenges**: What do you anticipate will be the hardest and most time-consuming parts?
