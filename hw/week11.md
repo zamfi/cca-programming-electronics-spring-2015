@@ -67,8 +67,8 @@ Make the following changes to the code we wrote in class (see below) and **[send
         }
 
 For your project:
-- Draft a "Bill of Materials" for your project: this is a list of the components you'll need to build your project. Each entry in the list should include a description, and a "source": where you'll get the part -- a link if you plan to buy it, or "Hybrid Lab" if the lab has one you plan to use, but please confirm in the lab that the part is available! 
+- Draft a "Bill of Materials" for your project: this is a list of the electronic and other physical components you'll need to build your project. Each entry in the list should include a description, and a "source": where you'll get the part -- a link if you plan to buy it, or "Hybrid Lab" if the lab has one you plan to use, but please confirm in the lab that the part is available! 
   
   **[Send me your Bill of Materials](mailto:jzamfirescupereira@cca.edu) by Monday night, 11pm**.
 
-- **Bring all the parts on your Bill of Materials with you to class this week!** (In addition to your laptop, Arduino, etc.)
+- **Bring all the parts on your Bill of Materials with you to class this week!** (In addition to your laptop, Arduino, etc.) There may still be parts you need to get later -- that's fine -- just make sure you bring enough parts for the first stage of your timeline. Make sure to bring enough parts to make some progress in class!
