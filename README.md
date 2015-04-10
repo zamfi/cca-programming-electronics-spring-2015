@@ -368,6 +368,7 @@ Lab:
 
 Homework: Draft a project proposal and practice programming in [homework 9](hw/week9.md).
 
+
 ### Week 10: Wednesday, April 1, 2015
 
 Lecture:
@@ -383,9 +384,33 @@ In the diagram above, the blue boxes show the modified code; the left side of ea
 
 The variables tracking the position, speed, and radius of the ball, as well as the code for drawing and moving the ball, are all put into the class `Ball`. We say that the variables and functions are "encapsulated" in the `Ball` class. In Processing, `Ball` now describes a new type, like `int` or `float`, but more complex, a "compound" type. Whenever we create an "instance" of the `Ball` class, by writing `new Ball()`, we are creating a new **container** object that includes its own `x`, `y`, `vx`, `vy`, and `radius` variables -- the instance we create **contains** those 5 other variables. Then the `draw` and `move` functions are called **on an object**, for example, `b.move()` is the `move` function of the `b` object, it only uses and alters the variables inside the `b` object.
 
-You can create as many instances of a class as you like, giving them different names (for example, `Ball b2 = new Ball()`) or storing them in arrays. Each will be independent, and calling a function on one object will only affect that one object's variables.
+You can create as many instances of a class as you like, giving them different names (for example, `Ball b2 = new Ball()`) or storing them in arrays. Each will be independent, and calling a function on one object will only affect that one object's variable. The class *describes* the object, and the *instance* contains all the data and can have its functions used.
 
 Try it in the homework!
 
 Homework: Play with the code we wrote in class and write up a project proposal in [homework 10](hw/week10.md).
+
+
+### Week 1: Wednesday, April 1, 2015
+
+Lecture:
+- Homework review
+- Classes and Arrays
+
+Lab: 
+- Project work
+
+In today's session, we looked at how you can use an `ArrayList` object to store large numbers of objects. Here's a graphic showing how we went from two `Ball` objects to 529 `Ball` objects in a grid:
+
+![bouncing balls with or without arraylists](img/enlisting-balls.png)
+
+In the diagram above, the blue boxes highlight the changes we made. (Note that the `Ball` class itself hasn't changed! What's changed is how we keep track of the `Ball` instances we create.) 
+
+In the traditional code, we need a new variable (`b1` or `b2`, for example) for each ball we show. To display 529 `Ball` objects in a grid in the traditional way, we'd need to create 529 `Ball`-type variables -- what a nightmare! Instead, we create a new object called `ArrayList<Ball>`, that we'll use to keep track of our 529 `Ball` objects.
+  
+You can think of an `ArrayList` as a new type of variable that can hold many other variables of the same type. For example, `ArrayList<Ball>` holds `Ball` objects, but `ArrayList<Particle>` would only hold `Particle` objects. The [Processing.org ArrayList reference](https://processing.org/reference/ArrayList.html) may be useful.
+  
+We interact with the `ArrayList` object in our code, called `list`, in two ways. First, we `add` `Ball` objects to it in the `setup` function. Then we `get` those objects out of `list` so we can draw and move them. In `setup`, we use two `for` loops to give each `Ball` object its own `x` and `y` position in the grid of balls. In `draw`, we use a single `for` loop to `draw()` and `move()` each ball.
+
+Homework: Play with `ArrayList` objects and gather the parts you need for your project in [homework 11](hw/week11.md).
 
