@@ -391,7 +391,7 @@ Try it in the homework!
 Homework: Play with the code we wrote in class and write up a project proposal in [homework 10](hw/week10.md).
 
 
-### Week 1: Wednesday, April 1, 2015
+### Week 11: Wednesday, April 1, 2015
 
 Lecture:
 - Homework review
