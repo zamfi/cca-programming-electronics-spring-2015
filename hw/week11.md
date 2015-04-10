@@ -71,4 +71,4 @@ For your project:
   
   **[Send me your Bill of Materials](mailto:jzamfirescupereira@cca.edu) by Monday night, 11pm**.
 
-- **Acquire all the parts on your Bill of Materials and bring them with you to the next class! (In addition to your laptop, Arduino, etc.)**
+- **Acquire all the parts on your Bill of Materials and bring them with you to the next class!** (In addition to your laptop, Arduino, etc.)
